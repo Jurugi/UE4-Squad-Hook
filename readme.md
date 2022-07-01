@@ -2,6 +2,8 @@
 Example hooking Unreal Engine (v4.2x+) on Squad
 for offline or testing modes only, this is not for bypassing any form of deterrent or AC, but for learning how it works, then you are free to do what you wish with this information. It is designed to be a mess but most commented code is working, feel free to clean it up.
 
+You are free to re-use, just if asked in that 1/1000000 chance, be honest where it came from.
+
 Includes
 - std string version changed to char* version for fnames/objects
 - find gobjects,fname,call functions
