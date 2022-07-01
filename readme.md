@@ -207,7 +207,7 @@ If using this 2nd way you need no offsets and you can basically then get your pl
 This obviously have large benefits, usually it works fine since UE3 imo but is not the 'optimal' way, but if properly made in a loading way, could be used fine to load 1 time or get both at once.
 
 World to Screen:
-I found a UE4 world to screen from here because calling functions externally is usually impossible.. and I have not tested whether any kernel hooking is technically a functioning 'game thread' yet. It seems the GetAxes function is broken.. so I am going to try and fix it later.
+I found a UE4 world to screen from here because calling functions externally is usually impossible.. It seems the GetAxes function is broken, values way different/broken.. so I am going to try and fix it later.
 
 Not working found code, the principle works but GetAxes is way broken/out of date:
 <code>
