@@ -10,7 +10,7 @@ Includes
 - all necessary sdk functions/data from dumps
 - drawing, setup/call any function
 - does not include full dump
-- inline x64 detour by me
+- my inline x64 detours included
 - hook postrender by both vtable/inline
 - find/call processevent
 - thread method for testing external ways (no hooks)
