@@ -1,0 +1,42 @@
+﻿  Main.cpp
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(175,14): warning C4099: 'UField': type name first seen using 'struct' now seen using 'class'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(174): message : see declaration of 'UField'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(346,18): error C2143: syntax error: missing ';' before '*'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(346,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(346,33): error C2238: unexpected token(s) preceding ';'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(504,26): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(668,22): warning C4099: 'AActor': type name first seen using 'struct' now seen using 'class'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(299): message : see declaration of 'AActor'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(359,22): warning C4018: '<': signed/unsigned mismatch
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(389,22): warning C4018: '<': signed/unsigned mismatch
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(455,34): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(455,34): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(456,71): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(456,71): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(467,31): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(467,31): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(468,32): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(468,32): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(523,22): warning C4018: '<': signed/unsigned mismatch
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(582,22): warning C4018: '<': signed/unsigned mismatch
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(610,22): warning C4018: '<': signed/unsigned mismatch
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(678,32): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(678,32): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(679,69): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(679,69): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(688,31): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(688,31): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(689,32): error C2440: 'initializing': cannot convert from 'initializer list' to 'FVector2D'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(689,32): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(950,23): warning C4018: '<': signed/unsigned mismatch
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(983,166): error C2039: 'CurrentWeapon': is not a member of 'USQPawnInventoryComponent'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(344): message : see declaration of 'USQPawnInventoryComponent'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(984,103): error C2039: 'CurrentWeapon': is not a member of 'USQPawnInventoryComponent'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\SDK\UE4_Basic.hpp(344): message : see declaration of 'USQPawnInventoryComponent'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Main.cpp(1087,22): warning C4018: '<': signed/unsigned mismatch
+  Misc.cpp
+  Signatures.cpp
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Signatures.cpp(20,64): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [14]' to 'LPCWSTR'
+D:\LatestArchive\Current Projects\UT4-Squad-Hook\UT4-Squad-Hook\Signatures.cpp(20,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(269,1): message : see declaration of 'GetModuleHandleW'
+  Generating Code...
