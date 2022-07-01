@@ -269,26 +269,29 @@ Calling Function Engine.KismetMathLibrary.BreakRotIntoAxes 0x00000245E55599A0
 2) -0.594734 0.800179 -0.077495 -0.802592 -0.596528 0.000000 -0.046227 0.062197 0.996993 (te: 25675000 ns)
 
 Working version:
-FVector2D W2S(UKismetMathLibrary* pMath, FVector Location, FRotator myRot, FVector myLoc, float FOV, float Width=ScreenWidth, float Height=ScreenHeight)
+<code>
+FVector W2S(FVector Location, FRotator myRot, FVector myLoc, float FOV, float Width = ScreenWidth, float Height = ScreenHeight)
 {
-	FVector2D Return;
+	FVector Return;
 	FVector AxisX, AxisY, AxisZ, Delta, Transformed;
 
-	pMath->BreakRotIntoAxes(myRot, AxisX, AxisY, AxisZ); <--- still very slow, see results of test..
+	UKismetReversedBreakRotIntoAxes(myRot, AxisX, AxisY, AxisZ, false);
 	Delta = VectorSubtract(Location, myLoc);
-	Transformed.X = pMath->Dot_VectorVector(Delta, AxisY);
-	Transformed.Y = pMath->Dot_VectorVector(Delta, AxisZ);
-	Transformed.Z = pMath->Dot_VectorVector(Delta, AxisX);
+	Transformed.X = Dot(Delta, AxisY);
+	Transformed.Y = Dot(Delta, AxisZ);
+	Transformed.Z = Dot(Delta, AxisX);
 
 	if (Transformed.Z < 1.00f) Transformed.Z = 1.00f;
 
 	float CentX = (Width / 2.f);
 	float CentY = (Height / 2.f);
-	Return.X = CentX + Transformed.X * (CentX / (float)tan(FOV * UCONST_Pi / 360)) / Transformed.Z;
-	Return.Y = CentY - Transformed.Y * (CentX / (float)tan(FOV * UCONST_Pi / 360)) / Transformed.Z;
+	Return.X = CentX + Transformed.X * (CentX / (float)tan2(FOV * UCONST_Pi / 360)) / Transformed.Z;
+	Return.Y = CentY - Transformed.Y * (CentX / (float)tan2(FOV * UCONST_Pi / 360)) / Transformed.Z;
+	Return.Z = Transformed.Z;
 
 	return Return;
 }
+</code>
 
 Kernelizing/HyperV and other notes:
 Externally you can call most KismetmathLibrary and a few other functions, however in Kernel will trigger Kernel BSOD when trying to execute usermode memory.. (SMEP or other protections)
