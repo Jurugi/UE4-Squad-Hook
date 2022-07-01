@@ -19,7 +19,7 @@ Reversed/fixed exactly how it's called in the engine:
 - w2s/getrotfromaxes
 - fixed general math/funcs included to be optimized
 
-I am not fixing the brokne formatting: notes/helpful info below for those who want to find things on UE4 4.2x+ versions and just mess with it.
+I am not fixing the brokne formatting: notes/helpful info below for those who want to find things on UE4 4.2x+ versions and just mess with it. (use raw version for format)
 
 Finding engine version:
 You can go to the .exe, file details, File version: will hold the compiled engine version.
