@@ -19,7 +19,7 @@ Reversed/fixed exactly how it's called in the engine:
 - isalive
 - teamcheck
 - w2s/getrotfromaxes
-- fixed general math/funcs included to be optimized
+- fixed general math/funcs
 
 I am not fixing the brokne formatting: notes/helpful info below for those who want to find things on UE4 4.2x+ versions and just mess with it. (use raw version for formatting https://raw.githubusercontent.com/Jurugi/UE4-Squad-Hook/main/readme.md)
 
