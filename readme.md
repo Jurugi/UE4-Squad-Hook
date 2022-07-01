@@ -270,7 +270,8 @@ Calling Function Engine.KismetMathLibrary.BreakRotIntoAxes 0x00000245E55599A0
 
 Working version:
 <code>
-FVector W2S(FVector Location, FRotator myRot, FVector myLoc, float FOV, float Width = ScreenWidth, float Height = ScreenHeight)
+
+FVector W2S2(FVector Location, FRotator myRot, FVector myLoc, float FOV, float Width = ScreenWidth, float Height = ScreenHeight)
 {
 	FVector Return;
 	FVector AxisX, AxisY, AxisZ, Delta, Transformed;
@@ -291,6 +292,7 @@ FVector W2S(FVector Location, FRotator myRot, FVector myLoc, float FOV, float Wi
 
 	return Return;
 }
+
 </code>
 
 Kernelizing/HyperV and other notes:
