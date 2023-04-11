@@ -1,6 +1,6 @@
 # UE4-Squad-Hook
 Example hooking Unreal Engine 4 on Squadx64
-for offline or testing only, this is not for bypassing any form of deterrent or AC, but for learning how the engine works, you are free to do what you wish with this information. 
+for offline or testing only, this is not for bypassing any form of deterrent or AC, but for learning how the engine works, you are free to do what you wish with this information. It's outdated now but with an updated SDK dump it all still works.
 
 You are free to re-use, just if asked in that 1/1000000 chance, be honest where it came from.
 
@@ -11,9 +11,9 @@ Includes
 - drawing, setup/call any function
 - does not include full dump
 - my inline x64 detours included
-- hook postrender by both vtable/inline
+- hook postrender either vtable/inline hook
 - find/call processevent
-- thread method for testing external ways (no hooks)
+- createthread method (no function hooking, for testing in kernelmode or externally if you plan to make one online)
 
 Reversed/fixed exactly how it's called in the engine for online mode:
 - isalive
