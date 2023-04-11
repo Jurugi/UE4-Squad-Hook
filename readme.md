@@ -1,6 +1,6 @@
 # UE4-Squad-Hook
 Example hooking Unreal Engine 4 on Squadx64
-for offline or testing only, this is not for bypassing any form of deterrent or AC, but for learning how the engine works, you are free to do what you wish with this information. It's outdated now but with an updated SDK dump it all still works.
+for offline or testing only, this is not for bypassing any form of deterrent or AC, but for learning how the engine works, you are free to do what you wish with this information. It's outdated but with an updated SDK dump, it should still work again.
 
 You are free to re-use, just if asked in that 1/1000000 chance, be honest where it came from.
 
